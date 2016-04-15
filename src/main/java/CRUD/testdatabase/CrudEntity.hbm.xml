@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="CRUD.testdatabase.CrudEntity" table="crud" schema="test">
+        <id name="id" column="id"/>
+        <property name="name" column="name"/>
+        <property name="age" column="age"/>
+        <property name="admin" column="admin"/>
+        <property name="createdDate" column="createdDate"/>
+    </class>
+</hibernate-mapping>
